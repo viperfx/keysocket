@@ -16,6 +16,10 @@
       "js": ["shared.js","keysocket-t61.js"]
     },
     {
+      "matches": ["http://ng-jukebox.herokuapp.com/*", "http://localhost:8000/*"],
+      "js": ["shared.js","keysocket-juketube.js"]
+    },
+    {
       "matches": ["http://www.rdio.com/*"],
       "js": ["shared.js","keysocket-rdio.js"]
     },
